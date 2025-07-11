@@ -4,6 +4,12 @@
 
 
 /* nav style */
+header{
+    margin-bottom: 116px;
+    background-color: lightblue;
+    background-image: url(../Assets/Hero-bg.png);
+    
+}
 
 nav{
     display: flex;
@@ -27,6 +33,7 @@ nav{
     font-weight: bold;
     border: none;
     border-radius:16px;
+    padding: 12px 36px;
     cursor: pointer;
     width:132px ;
     height: 48px;
@@ -34,11 +41,30 @@ nav{
     
 } 
 
-
+/* banner style */
 
 
 .banner-title{
     text-align: center;
+    margin:237px 245px 237px 245px  ;
+}
+.banner-heading{
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 85px;
+
+}
+.banner-button{
+    background-color: #4E47FF;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius:16px;
+    padding: 12px 32px;
+    cursor: pointer;
+    width:166px ;
+    height: 48px;
+    
 }
 main{
     max-width: 1140px;
