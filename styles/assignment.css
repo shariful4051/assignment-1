@@ -40,6 +40,9 @@ nav{
     
     
 } 
+.nav-button:hover{
+    
+}
 
 /* banner style */
 
@@ -185,6 +188,48 @@ textarea{
     height: 62px;
     
 }
+/* footer style */
+.footer{
+    text-align: center;
+    max-width: 531px;
+    margin: 0px auto;
+    
+   
+}
+ 
+.footer-title{
+    
+  color: #4E47FF; 
+  font-size: 100px;
+  font-weight: bold;
+  margin-bottom: 0px;
+
+  
+}
+.footer-description{
+    color: rgba(137, 135, 161, 1);
+    text-align: center;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+ul li{
+    list-style: none;
+}
+ul a{
+    text-decoration:none;
+     color: rgba(137, 135, 161, 1);
+     
+   
+
+}
+ul a:hover{
+    background-color:rgba(78, 71, 255, 0.1) ;
+}
+
 
 
 
