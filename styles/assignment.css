@@ -108,13 +108,36 @@ main{
     border-radius: 30px;
 
 }
+/* user style */
+
 
 
 .users{
-    background-color:4E47FF ;
+    background-color:rgba(78, 71, 255, 0.1) ;
+    margin-bottom: 137px;
+    border-radius:20px ;
+}
+.users-heading{
+    font-size:38px ;
+    font-weight: bold;
+    text-align: center;
+    color: #252432;
+    margin-bottom: 40px;
 }
 .users-contrainer{
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
+.user-color{
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.user-description{
+     color:rgba(0, 0, 0, 0.5) ;
+     font-size: 20px;
+}
+
 
