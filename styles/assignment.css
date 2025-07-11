@@ -1,0 +1,60 @@
+
+
+/* common style */
+
+
+/* nav style */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0px 127px 158px 127px;
+    padding:50px 0px 50px 0px ;
+
+
+}
+    
+.nav-title{
+ color:#4E47FF;
+ font-size: 34px;
+ width: 99px;
+ height: 51px;
+}
+.nav-button{
+    background-color: #4E47FF;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius:16px;
+    cursor: pointer;
+    width:132px ;
+    height: 48px;
+    
+    
+} 
+
+
+
+
+.banner-title{
+    text-align: center;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.action{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.users{
+    background-color:4E47FF ;
+}
+.users-contrainer{
+    display: flex;
+    justify-content: space-around;
+}
+
