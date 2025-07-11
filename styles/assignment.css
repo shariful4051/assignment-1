@@ -60,6 +60,7 @@ nav{
 .banner-title{
     text-align: center;
     margin:237px 245px 237px 245px  ;
+    padding-bottom: 200px;
 }
 .banner-heading{
     font-size: 65px;
@@ -207,28 +208,34 @@ main{
     padding: 71px 0px;
 }
 .form-header{
-  font-size: 97px;  
+  font-size: 80px;  
   font-weight: bold;
   color:rgba(0, 0, 0, 1) ;
-  margin-right:115px ;
+  margin-right:100px ;
 }
 input[type=email]{
     width: 497px;
     height: 70px;
     color: rgba(255, 255, 255, 1);
     border-color:rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 input[type=text]{
      width: 497px;
     height: 70px;
     color: rgba(255, 255, 255, 1);
     border-color:rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 textarea{
      width: 497px;
     height: 70px;
     color: rgba(255, 255, 255, 1);
     border-color:rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .get-button{
      background-color: #4E47FF;
