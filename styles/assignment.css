@@ -144,6 +144,34 @@ main{
      color:rgba(0, 0, 0, 0.5) ;
      font-size: 20px;
 }
+
+/* challenge style */
+.challenge{
+    max-width: 1140px;
+}
+.challenge-title{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.challenge-contrainer{
+    display: flex;
+    justify-content: space-between;
+}
+.challenge-card{
+    background-color: rgba(242, 237, 237, 1);
+    padding: 24px;
+}
+.img-challenge{
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+    align-items: center;
+
+}
+
+
 /* form style */
 .form{
     display: flex;
