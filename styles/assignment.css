@@ -41,6 +41,9 @@ nav{
     
 } 
 .nav-button:hover{
+    background-color:white;
+    color: #4E47FF;
+    border: 1px solid #4E47FF;
     
 }
 
@@ -68,6 +71,11 @@ nav{
     width:166px ;
     height: 48px;
     
+}
+.banner-button:hover{
+    background-color:white;
+    color: #4E47FF;
+    border: 1px solid #4E47FF;
 }
 main{
     max-width: 1140px;
@@ -104,6 +112,11 @@ main{
     width:202px ;
     height: 48px;
     
+}
+.action-button:hover{
+    background-color:white;
+    color: #4E47FF;
+    border: 1px solid #4E47FF;
 }
 .action-img{
     width:403px;
@@ -158,6 +171,7 @@ main{
 .challenge-contrainer{
     display: flex;
     justify-content: space-between;
+    gap:20px ;
 }
 .challenge-card{
     background-color: rgba(242, 237, 237, 1);
@@ -215,6 +229,11 @@ textarea{
     width:499px ;
     height: 62px;
     
+}
+.get-button:hover{
+    background-color:white;
+    color: #4E47FF;
+    border: 1px solid #4E47FF;
 }
 /* footer style */
 .footer{
