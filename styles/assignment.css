@@ -2,6 +2,13 @@
 
 /* common style */
 
+.raleway-normal{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
 
 /* nav style */
 header{
@@ -149,6 +156,7 @@ main{
 }
 .user-color{
     color: #4E47FF;
+    font-family: none;
     font-size: 80px;
     font-weight: bold;
     margin-bottom: 0px;
@@ -174,8 +182,9 @@ main{
     gap:20px ;
 }
 .challenge-card{
-    background-color: rgba(242, 237, 237, 1);
-    padding: 24px;
+    background-color:rgba(242, 237, 237, 1);
+    padding: 20px;
+    border-radius: 10px;
 }
 .img-challenge{
     display: flex;
@@ -183,6 +192,9 @@ main{
     gap: 5px;
     align-items: center;
 
+}
+.challenge-description{
+    color:rgba(0, 0, 0, 0.5) ; ;
 }
 
 
